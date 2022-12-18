@@ -1,0 +1,8 @@
+Run only testcase with tag smoke
+behave --tags=smoke
+
+Run testcase with either tage smoke or sanity
+behave --tags=smoke,sanity
+
+Run testcase with either tage smoke and  sanity
+behave --tags=smoke --tags=sanity
